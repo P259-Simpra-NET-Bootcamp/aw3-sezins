@@ -36,7 +36,7 @@ odev icersinde sadece 2 modeli gonderiniz.
 7. Fluent  Validation ve AutoMapper kullanıldı.
 8. CustomResponse ve Middleware kullanıldı.
 9. SOLID Prensipleri.
-10. 10. Include ile Category'si aynı olan Productlar listelendi 
+10. Include ile Category'si aynı olan Productlar listelendi 
 
 ![alt text](https://i.ibb.co/jH9T6dS/Includefor-Category.jpg)
 
