@@ -41,9 +41,10 @@ odev icersinde sadece 2 modeli gonderiniz.
     ![alt text](https://i.ibb.co/jH9T6dS/Includefor-Category.jpg)
 
 11.Include ile Productlar categoryleri ile listelendi ve 2 tane where sorgusu kullanıldı.
-
-    ![alt text](https://i.ibb.co/S5sxk6m/Includefor-Product.jpg)
     
+   ![alt text](https://i.ibb.co/S5sxk6m/Includefor-Product.jpg)
+    
+        
 ## Kullanılan Teknolojiler: 
 1. IDE : Visual Studio 2022 
 2. DB: MsSQL Languages: C#, 
