@@ -32,26 +32,26 @@ namespace SimpraHomeWork.Service.Service
         {
             var products = await _productRepository.GetProductswithCategoryAsync();
 
-            var productsDto = _mapper.Map<List<ProductwithCategoryResponse>>(products);
+            var productsCategory = _mapper.Map<List<ProductwithCategoryResponse>>(products);
 
-            return CustomResponse<List<ProductwithCategoryResponse>>.Success(200, productsDto);
+            return CustomResponse<List<ProductwithCategoryResponse>>.Success(200, productsCategory);
         }
 
 
         public async Task<CustomResponse<List<ProductResponse>>> GetProductsInfoAsync()
         {
             var products = await _productRepository.GetProductInfoAsync();
-            var productsDto = _mapper.Map<List<ProductResponse>>(products);
+            var productsResponse = _mapper.Map<List<ProductResponse>>(products);
 
-            return CustomResponse<List<ProductResponse>>.Success(200, productsDto);
+            return CustomResponse<List<ProductResponse>>.Success(200, productsResponse);
         }
 
         public async Task<CustomResponse<List<ProductResponse>>> GetProductsInfo2Async()
         {
             var products = await _productRepository.GetProductInfo2Async();
-            var productsDto = _mapper.Map<List<ProductResponse>>(products);
+            var productsResponse = _mapper.Map<List<ProductResponse>>(products);
 
-            return CustomResponse<List<ProductResponse>>.Success(200, productsDto);
+            return CustomResponse<List<ProductResponse>>.Success(200, productsResponse);
         }
 
 

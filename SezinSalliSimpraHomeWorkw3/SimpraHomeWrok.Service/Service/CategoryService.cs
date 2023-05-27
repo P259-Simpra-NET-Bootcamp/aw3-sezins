@@ -21,8 +21,8 @@ namespace SimpraHomeWork.Service.Service
         public async Task<CustomResponse<CategorywithProductResponse>> GetSingleCategoryByIdwithProductAsync(int categoryId)
         {
             var category = await _categoryRepository.GetSingleCategoryByIdwithProductAsync(categoryId);
-            var categoryDto = _mapper.Map<CategorywithProductResponse>(category);
-            return CustomResponse<CategorywithProductResponse>.Success(200, categoryDto);
+            var categoryProduct = _mapper.Map<CategorywithProductResponse>(category);
+            return CustomResponse<CategorywithProductResponse>.Success(200, categoryProduct);
         }
     }
 }
