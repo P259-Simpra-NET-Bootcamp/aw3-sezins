@@ -21,9 +21,9 @@ odev icersinde sadece 2 modeli gonderiniz.
 1. Projenin Database’i  MsSQL kullanılılarak geliştirildi.
 2. Projenin backend’i ‘Web API’ projesi olup, NLayer Architecture yapısına uygun olarak dizayn edildi.
 
-![alt text](https://i.ibb.co/mN5sNVV/NLayer.jpg)
 
-4. RESTAPI PRINCIPLES VE CRUD Operations kullanıldı. 
+
+3. RESTAPI PRINCIPLES VE CRUD Operations kullanıldı. 
    Category Controller:
    
 ![alt text](https://i.ibb.co/CwT6WgV/Catgory-Controller.jpg)
@@ -32,12 +32,12 @@ odev icersinde sadece 2 modeli gonderiniz.
    
 ![alt text](https://i.ibb.co/Yd3dHbN/Product-Controller.jpg)
    
-6. Generic Repository Design Pattern ve Unit of Work Design Pattern uygulandı.
-7. Fluent  Validation ve AutoMapper kullanıldı.
-8. CustomResponse ve Middleware kullanıldı.
-9. SOLID Prensipleri.
-10. Include ile Category'si aynı olan Productlar listelendi 
-11.Include ile Productlar categoryleri ile listelendi ve 2 tane Where sorgusu kullanıldı.
+4. Generic Repository Design Pattern ve Unit of Work Design Pattern uygulandı.
+5. Fluent  Validation ve AutoMapper kullanıldı.
+6. CustomResponse ve Middleware kullanıldı.
+7. SOLID Prensipleri.
+8. Include ile Category'si aynı olan Productlar listelendi 
+9. Include ile Productlar categoryleri ile listelendi ve 2 tane Where sorgusu kullanıldı.
     
 
     
