@@ -37,12 +37,9 @@ odev icersinde sadece 2 modeli gonderiniz.
 8. CustomResponse ve Middleware kullanıldı.
 9. SOLID Prensipleri.
 10. Include ile Category'si aynı olan Productlar listelendi 
-
-![alt text](https://i.ibb.co/jH9T6dS/Includefor-Category.jpg)
-
 11.Include ile Productlar categoryleri ile listelendi ve 2 tane Where sorgusu kullanıldı.
     
-![alt text](https://i.ibb.co/S5sxk6m/Includefor-Product.jpg)
+
     
         
 ## Kullanılan Teknolojiler: 
